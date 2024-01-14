@@ -60,3 +60,19 @@ img {
 }
 /* GENERAL STYLES */
 /* ------------------------------------------------------------------------------------------------------------------------------ */
+/* BLACK HEADER */
+.black-header input {
+  border-radius: 8px;
+  border: 2px solid white;
+  color: white;
+}
+.black-header input::placeholder {
+  color: white;
+}
+.black-header input:focus {
+  outline: none;
+}
+.black-header h5 {
+  font-weight: bolder;
+}
+/* BLACK HEADER */
