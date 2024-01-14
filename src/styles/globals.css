@@ -1,5 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish:wght@400;600;700;800&display=swap");
-/* GENERAL STYLES */
+/* CSS RESETS */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+}
+img {
+  max-width: 100%;
+}
+/* CSS RESETS */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* GENERAL FONTS */
 .font-monserat {
   font-family: "Montserrat", sans-serif;
 }
@@ -18,4 +40,23 @@
 .font-weight-800 {
   font-weight: 800;
 }
+/* GENERAL FONTS */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
 /* GENERAL STYLES */
+.bg-black {
+  background-color: #000000;
+}
+.bg-orange {
+  background-color: #fbb13c;
+}
+.bg-purple {
+  background-color: #b8b0da;
+}
+.color-grey {
+  color: #919190;
+}
+.color-red {
+  color: #fb5e3c;
+}
+/* GENERAL STYLES */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
