@@ -2,7 +2,7 @@ import React from "react";
 
 const BlackHeader = () => {
   return (
-    <div className="black-header bg-black ">
+    <div className="black-header bg-black">
       <div className="container">
         <div className="row py-3 font-monserat font-weight-600 d-flex justify-content-between align-items-center text-white">
           <div className="col-6">
