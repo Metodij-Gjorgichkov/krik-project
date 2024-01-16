@@ -1,4 +1,5 @@
 import BlackHeader from "@/components/BlackHeader";
+import OrangeHeader from "@/components/OrangeHeader";
 import Head from "next/head";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
 
       <BlackHeader />
+      <OrangeHeader />
     </>
   );
 }

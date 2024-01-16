@@ -1,10 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Mulish:wght@400;600;700;800&display=swap");
 /* CSS RESETS */
 * {
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 body {
   margin: 0;
+  padding-top: 158px;
 }
 html {
   scroll-behavior: smooth;
@@ -58,12 +59,32 @@ img {
 .color-red {
   color: #fb5e3c;
 }
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
 /* GENERAL STYLES */
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* BLACK HEADER */
+.black-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 .black-header input {
   border-radius: 8px;
-  border: 2px solid white;
+  border: 3px solid white;
   color: white;
 }
 .black-header input::placeholder {
@@ -75,4 +96,36 @@ img {
 .black-header h5 {
   font-weight: bolder;
 }
+.krik-logo {
+  width: 80px;
+  height: 80px;
+}
 /* BLACK HEADER */
+/* ORANGE HEADER */
+.orange-header {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  right: 0;
+}
+.orange-header ul > li {
+  transition: all ease;
+}
+.orange-header ul > li:hover {
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.orange-header select {
+  appearance: none;
+  background: transparent;
+  border: none;
+  width: 80px;
+  font-weight: 800;
+}
+.orange-header select:hover {
+  appearance: auto;
+}
+.orange-header select:focus {
+  outline: none;
+}
+/* ORANGE HEADER */
