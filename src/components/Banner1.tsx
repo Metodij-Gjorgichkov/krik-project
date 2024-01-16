@@ -5,9 +5,15 @@ const Banner1 = () => {
   return (
     <div className="banner1 bg-image">
       <div className="container h-100">
-        <div className="row d-flex justify-content-center align-items-center h-100">
+        <div
+          className="row d-flex justify-content-center align-items-start h-100"
+          style={{ paddingTop: "70px" }}
+        >
           <div className="col-12">
-            <h1 className="text-center font-monserat text-uppercase font-weight-600 mb-5">
+            <h1
+              className="text-center font-monserat text-uppercase font-weight-600"
+              style={{ marginBottom: "80px" }}
+            >
               Промената доаѓа <br /> од младите
             </h1>
 
