@@ -1,6 +1,8 @@
 import Banner1 from "@/components/Banner1";
 import BlackHeader from "@/components/BlackHeader";
 import OrangeHeader from "@/components/OrangeHeader";
+import AccessibilityBtn from "@/components/АccessibilityBtn";
+
 import Head from "next/head";
 
 export default function Home() {
@@ -16,6 +18,7 @@ export default function Home() {
       <BlackHeader />
       <OrangeHeader />
       <Banner1 />
+      <AccessibilityBtn />
     </>
   );
 }

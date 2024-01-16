@@ -7,7 +7,7 @@ const Banner1 = () => {
       <div className="container h-100">
         <div
           className="row d-flex justify-content-center align-items-start h-100"
-          style={{ paddingTop: "70px" }}
+          style={{ paddingTop: "80px" }}
         >
           <div className="col-12">
             <h1
