@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Mulish:wght@400;600;700;800&display=swap");
 /* CSS RESETS */
 * {
-  box-sizing: border-box !important;
+  box-sizing: border-box;
 }
 body {
   margin: 0;
@@ -62,6 +62,9 @@ img {
 .bg-red {
   background-color: #fb5e3c;
 }
+.darker-white {
+  background: #fbf8f4;
+}
 a {
   color: black;
   text-decoration: none;
@@ -75,7 +78,9 @@ ul {
   padding-left: 0;
   margin-bottom: 0;
 }
-
+.border-radius {
+  border-radius: 10px;
+}
 /* GENERAL STYLES */
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* BLACK HEADER */
@@ -155,12 +160,16 @@ ul {
   position: fixed;
   top: 204px;
   right: 0;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
   border: none;
+  transition: all 0.3s ease;
 }
 .accessibility-btn:focus {
   outline: none;
+}
+.accessibility-btn.content {
+  width: 420px;
 }
 /* ACCESSIBILITY BUTTON */
 /* ------------------------------------------------------------------------------------------------------------------------------ */
