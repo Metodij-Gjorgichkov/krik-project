@@ -84,6 +84,12 @@ ul {
 .border-radius {
   border-radius: 10px;
 }
+.font-size-32 {
+  font-size: 32px;
+}
+.font-size-20 {
+  font-size: 20px;
+}
 /* GENERAL STYLES */
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* BLACK HEADER */
@@ -176,4 +182,38 @@ ul {
   width: 420px;
 }
 /* ACCESSIBILITY BUTTON */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* PROJECTS */
+.projects-border {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+/* PROJECTS */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* BECOME VOLUNTEER */
+.become-volunteer button {
+  border: 2px solid white;
+  border-radius: 10px;
+}
+/* BECOME VOLUNTEER */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* NEWEST NEWS */
+.newestNews .img-content {
+  position: absolute;
+  bottom: 10px;
+}
+.newestNews .img-content a {
+  border: 2px solid orange;
+  border-radius: 10px;
+}
+.newestNews-cont {
+  overflow-x: auto;
+  white-space: nowrap;
+  z-index: 1;
+}
+.card-20 img {
+  width: 100%;
+}
+
+/* NEWEST NEWS */
 /* ------------------------------------------------------------------------------------------------------------------------------ */

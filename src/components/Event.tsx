@@ -2,7 +2,7 @@ import React from "react";
 
 const Event = () => {
   return (
-    <div className="container pb-3" style={{ marginTop: "-120px" }}>
+    <div className="container pb-5" style={{ marginTop: "-120px" }}>
       <div className="row content px-0">
         <div
           className="col-6 pt-5 pb-2 px-5 bg-black"
@@ -19,7 +19,7 @@ const Event = () => {
             Британската амбасада во Скопје.{" "}
           </p>
           <div className="d-flex px-3">
-            <button className="bg-orange px-5 py-2 border-0 border-radius">
+            <button className="bg-orange px-5 py-2 mr-3 border-0 border-radius">
               Види повеќе
             </button>
             <button className="bg-purple ml-auto px-5 py-2 border-0 border-radius">

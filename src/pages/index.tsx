@@ -1,7 +1,10 @@
 import Banner1 from "@/components/Banner1";
+import BecameVolunteer from "@/components/BecameVolunteer";
 import BlackHeader from "@/components/BlackHeader";
 import Event from "@/components/Event";
+import NewestNews from "@/components/NewestNews";
 import OrangeHeader from "@/components/OrangeHeader";
+import Projects from "@/components/Projects";
 import AccessibilityBtn from "@/components/АccessibilityBtn";
 
 import Head from "next/head";
@@ -21,6 +24,9 @@ export default function Home() {
       <Banner1 />
       <AccessibilityBtn />
       <Event />
+      <Projects />
+      <BecameVolunteer />
+      <NewestNews />
     </>
   );
 }
