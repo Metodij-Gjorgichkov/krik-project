@@ -50,6 +50,9 @@ img {
 .bg-orange {
   background-color: #fbb13c;
 }
+.color-orange {
+  color: #fbb13c;
+}
 .bg-purple {
   background-color: #b8b0da;
 }
@@ -145,7 +148,7 @@ ul {
   background-image: url("/images/Homepage/herosection.jpg");
   background-position: center;
   background-size: cover;
-  height: 83vh;
+  height: 90vh;
   width: 100%;
 }
 /* BANNER 1  */
@@ -164,6 +167,7 @@ ul {
   border-bottom-left-radius: 10px !important;
   border: none;
   transition: all 0.3s ease;
+  z-index: 9999;
 }
 .accessibility-btn:focus {
   outline: none;
