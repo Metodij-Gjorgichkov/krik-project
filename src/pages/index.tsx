@@ -2,6 +2,7 @@ import Banner1 from "@/components/Banner1";
 import BecameVolunteer from "@/components/BecameVolunteer";
 import BlackHeader from "@/components/BlackHeader";
 import Event from "@/components/Event";
+import Footer from "@/components/Footer";
 import NewestNews from "@/components/NewestNews";
 import OrangeHeader from "@/components/OrangeHeader";
 import OurServices from "@/components/OurServices";
@@ -31,6 +32,7 @@ export default function Home() {
       <NewestNews />
       <OurServices />
       <Partners />
+      <Footer />
     </>
   );
 }
