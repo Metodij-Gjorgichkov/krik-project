@@ -198,22 +198,19 @@ ul {
 /* BECOME VOLUNTEER */
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* NEWEST NEWS */
-.newestNews .img-content {
-  position: absolute;
-  bottom: 10px;
-}
-.newestNews .img-content a {
-  border: 2px solid orange;
-  border-radius: 10px;
-}
-.newestNews-cont {
+.scroll-section {
   overflow-x: auto;
-  white-space: nowrap;
-  z-index: 1;
+  display: flex;
 }
-.card-20 img {
-  width: 100%;
+.img-content {
+  position: absolute;
+  bottom: 20px;
 }
-
+.card-30 {
+  flex: 0 0 30%;
+  min-width: 250px;
+  margin-right: 15px;
+  margin-bottom: 40px;
+}
 /* NEWEST NEWS */
 /* ------------------------------------------------------------------------------------------------------------------------------ */
