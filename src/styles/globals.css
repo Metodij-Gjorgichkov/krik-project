@@ -127,10 +127,7 @@ ul {
   left: 0;
   right: 0;
 }
-.orange-header ul > li {
-  transition: all ease;
-}
-.orange-header ul > li:hover {
+.orange-header ul > li:hover:not(:last-child) {
   border: 2px solid black;
   border-radius: 8px;
 }

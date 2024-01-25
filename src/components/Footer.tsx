@@ -3,6 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div
+      id="footer"
       className="container-fluid bg-black"
       style={{ borderTopLeftRadius: "10px", borderTopRightRadius: "10px" }}
     >
