@@ -1,4 +1,5 @@
 import React from "react";
+import PurpleButton from "./PurpleButton";
 
 const NewestNews = () => {
   const NewsTypes = [
@@ -58,7 +59,10 @@ const NewestNews = () => {
                 />
 
                 <div className="img-content px-3 text-white">
-                  <a className="bg-orange text-dark mr-2" href="#">
+                  <a
+                    className="bg-orange text-dark mr-2 border-radius px-2"
+                    href="#"
+                  >
                     {news.title}
                   </a>
                   <span>25.02.2023</span>
@@ -72,6 +76,10 @@ const NewestNews = () => {
               </div>
             );
           })}
+        </div>
+
+        <div className="d-block text-right mt-5">
+          <PurpleButton title="Види за цел месец" padding="20px" />
         </div>
       </div>
     </>
