@@ -4,6 +4,7 @@ import BlackHeader from "@/components/BlackHeader";
 import Event from "@/components/Event";
 import NewestNews from "@/components/NewestNews";
 import OrangeHeader from "@/components/OrangeHeader";
+import OurServices from "@/components/OurServices";
 import Projects from "@/components/Projects";
 import AccessibilityBtn from "@/components/АccessibilityBtn";
 
@@ -27,6 +28,7 @@ export default function Home() {
       <Projects />
       <BecameVolunteer />
       <NewestNews />
+      <OurServices />
     </>
   );
 }
