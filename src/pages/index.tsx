@@ -5,6 +5,7 @@ import Event from "@/components/Event";
 import NewestNews from "@/components/NewestNews";
 import OrangeHeader from "@/components/OrangeHeader";
 import OurServices from "@/components/OurServices";
+import Partners from "@/components/Partners";
 import Projects from "@/components/Projects";
 import AccessibilityBtn from "@/components/АccessibilityBtn";
 
@@ -29,6 +30,7 @@ export default function Home() {
       <BecameVolunteer />
       <NewestNews />
       <OurServices />
+      <Partners />
     </>
   );
 }

@@ -233,3 +233,13 @@ ul {
   max-height: 350px;
 }
 /* OUR SERVICES */
+/* PARTNERS */
+.partners-img {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.partners-img img {
+  width: 161px;
+  height: 50px;
+}
+/* PARTNERS */
