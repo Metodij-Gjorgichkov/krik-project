@@ -1,15 +1,4 @@
-import Banner1 from "@/components/Banner1";
-import BecameVolunteer from "@/components/BecameVolunteer";
-import BlackHeader from "@/components/BlackHeader";
-import Event from "@/components/Event";
-import Footer from "@/components/Footer";
-import NewestNews from "@/components/NewestNews";
-import OrangeHeader from "@/components/OrangeHeader";
-import OurServices from "@/components/OurServices";
-import Partners from "@/components/Partners";
-import Projects from "@/components/Projects";
-import AccessibilityBtn from "@/components/АccessibilityBtn";
-
+import Banner from "@/components/Banner1";
 import Head from "next/head";
 
 export default function Home() {
@@ -21,18 +10,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <BlackHeader />
-      <OrangeHeader />
-      <Banner1 />
-      <AccessibilityBtn />
-      <Event />
-      <Projects />
-      <BecameVolunteer />
-      <NewestNews />
-      <OurServices />
-      <Partners />
-      <Footer />
+      <Banner />
     </>
   );
 }

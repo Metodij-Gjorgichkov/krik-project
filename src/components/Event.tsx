@@ -1,6 +1,6 @@
 import React from "react";
 
-const Event = () => {
+const Events = () => {
   return (
     <div className="container pb-5" style={{ marginTop: "-120px" }}>
       <div className="row content px-0">
@@ -43,4 +43,4 @@ const Event = () => {
   );
 };
 
-export default Event;
+export default Events;

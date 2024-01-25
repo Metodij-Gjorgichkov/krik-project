@@ -6,7 +6,7 @@ const Footer = () => {
       className="container-fluid bg-black"
       style={{ borderTopLeftRadius: "10px", borderTopRightRadius: "10px" }}
     >
-      <div className="row pt-5 pb-4 px-5">
+      <div className="row p-5">
         <div className="col-4 text-center">
           <h3 className="text-white font-weight-800">
             Месечен <br /> билтен
@@ -69,10 +69,25 @@ const Footer = () => {
             accumsan vitae dignissim.{" "}
           </span>
 
-          <img src="/icons/socialIcons/facebook.png" alt="" />
-          <img src="/icons/socialIcons/instagram.png" alt="" />
-          <img src="/icons/socialIcons/linkedin.png" alt="" />
-          <img src="/icons/socialIcons/twitter.png" alt="" />
+          <img
+            src="/icons/socialIcons/facebook.png"
+            style={{ width: "48px", height: "48px" }}
+            className="mr-3"
+          />
+          <img
+            src="/icons/socialIcons/instagram.png"
+            style={{ width: "48px", height: "48px" }}
+            className="mr-3"
+          />
+          <img
+            src="/icons/socialIcons/linkedin.png"
+            style={{ width: "48px", height: "48px" }}
+            className="mr-3"
+          />
+          <img
+            src="/icons/socialIcons/twitter.png"
+            style={{ width: "48px", height: "48px" }}
+          />
         </div>
       </div>
     </div>
