@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <BlackHeader />
       <OrangeHeader />
       <AccessibilityBtn />
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
       <Footer />
     </>
   );

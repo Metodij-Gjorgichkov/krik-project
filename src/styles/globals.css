@@ -68,6 +68,9 @@ img {
 .darker-white {
   background: #fbf8f4;
 }
+.white-bg {
+  background-color: white;
+}
 a {
   color: black;
   text-decoration: none;
@@ -89,6 +92,9 @@ ul {
 }
 .font-size-20 {
   font-size: 20px;
+}
+.cursor-pointer {
+  cursor: pointer;
 }
 /* GENERAL STYLES */
 /* ------------------------------------------------------------------------------------------------------------------------------ */
@@ -253,3 +259,12 @@ ul {
   margin-bottom: 60px;
 }
 /* FOOTER */
+/* FOR KRIK */
+.forKrik-animation {
+  transition: all 0.3s ease;
+}
+.forKrik-animation:hover {
+  background-color: #b8b0da !important;
+}
+
+/* FOR KRIK */
