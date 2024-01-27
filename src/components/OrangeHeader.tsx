@@ -40,13 +40,11 @@ const OrangeHeader = () => {
                       handleOnSelectChange(event)
                     }
                   >
-                    <option value="За нас" disabled>
-                      За нас
-                    </option>
+                    <option value="/">За нас</option>
                     <option value="/forKrik">За крик</option>
                     <option value="Нашиот тим">Нашиот тим</option>
                     <option value="Волонтери">Волонтери</option>
-                    <option>Архива</option>
+                    <option disabled>Архива</option>
                   </select>
                 </li>
                 <li className="px-2 mr-3">

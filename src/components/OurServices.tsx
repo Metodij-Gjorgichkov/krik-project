@@ -13,7 +13,7 @@ const OurServices = () => {
       desc: "Lorem ipsum dolor sit amet consectetur. Non at at risus dolor accumsan vitae dignissim. Est dapibus turpis metus ac rhoncus tellus volutpat. ",
     },
     {
-      title: "03 советувалиште за Млади и Родители",
+      title: "03 Советувалиште за Млади и Родители",
       img: "/icons/redArrow.png",
       desc: "Lorem ipsum dolor sit amet consectetur. Non at at risus dolor accumsan vitae dignissim. Est dapibus turpis metus ac rhoncus tellus volutpat. ",
     },
