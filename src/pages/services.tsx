@@ -19,10 +19,9 @@ const Services = ({ data }: ServiceData) => {
     });
   };
 
-  console.log(data);
   return (
     <div className="container my-5">
-      <div className="row p-5 text-center font-weight-800">
+      <div className="row position-relative p-5 text-center font-weight-800">
         <div className="col-4">
           <p
             className={`pb-2 cursor-pointer ${
@@ -63,6 +62,7 @@ const Services = ({ data }: ServiceData) => {
             Советувалиште
           </p>
         </div>
+        <div className="service-hr"></div>
       </div>
 
       <div className="row mt-4">
@@ -71,6 +71,27 @@ const Services = ({ data }: ServiceData) => {
         </div>
         <div className="col-12">
           <p>{data.map((typ) => typ.desc)}</p>
+        </div>
+      </div>
+
+      <div className="row mt-5 ">
+        <div className="col-12">
+          <p className="font-weight-800 mb-4">Галерија Со Активности</p>
+        </div>
+        <div className="col-4 mb-4">
+          <img src="/images/Services/pic1.png" />
+        </div>
+        <div className="col-8 mb-4">
+          <img src="/images/Services/pic2.png" className="services-pic" />
+        </div>
+        <div className="col-4">
+          <img src="/images/Services/pic3.png" />
+        </div>
+        <div className="col-4">
+          <img src="/images/Services/pic2.png" />
+        </div>
+        <div className="col-4">
+          <img src="/images/Services/pic1.png" />
         </div>
       </div>
     </div>
