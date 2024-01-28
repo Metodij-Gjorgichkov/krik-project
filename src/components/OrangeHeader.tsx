@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
 
@@ -48,9 +49,9 @@ const OrangeHeader = () => {
                   </select>
                 </li>
                 <li className="px-2 mr-3">
-                  <a className="inline-block" href="#">
+                  <Link className="inline-block" href="/services">
                     Услуги
-                  </a>
+                  </Link>
                 </li>
                 <li className="px-2 mr-3">
                   <a className="inline-block" href="#">

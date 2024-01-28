@@ -266,5 +266,9 @@ ul {
 .forKrik-animation:hover {
   background-color: #b8b0da !important;
 }
-
 /* FOR KRIK */
+/* SERVICES */
+.border-bottom-active {
+  border-bottom: 6px solid red;
+}
+/* SERVICES */
