@@ -1,19 +1,24 @@
+import { useRouter } from "next/router";
 import React from "react";
 
 const OurServices = () => {
+  const router = useRouter();
   const OurServicesType = [
     {
       title: "01 Мултифункционален центар Крикни",
+      linkTo: "Центар Крикни",
       img: "/icons/blackArrow.png",
       desc: "Lorem ipsum dolor sit amet consectetur. Non at at risus dolor accumsan vitae dignissim. Est dapibus turpis metus ac rhoncus tellus volutpat. ",
     },
     {
       title: "02 Независни станбени единици",
+      linkTo: "Независни станбени единици",
       img: "/icons/redArrow.png",
       desc: "Lorem ipsum dolor sit amet consectetur. Non at at risus dolor accumsan vitae dignissim. Est dapibus turpis metus ac rhoncus tellus volutpat. ",
     },
     {
       title: "03 Советувалиште за Млади и Родители",
+      linkTo: "Советувалиште",
       img: "/icons/redArrow.png",
       desc: "Lorem ipsum dolor sit amet consectetur. Non at at risus dolor accumsan vitae dignissim. Est dapibus turpis metus ac rhoncus tellus volutpat. ",
     },
@@ -42,6 +47,14 @@ const OurServices = () => {
                     alt={service.title}
                     style={{ width: "40px" }}
                     className="cursor-pointer"
+                    onClick={() => {
+                      router.push({
+                        pathname: "/services",
+                        query: {
+                          title: service.linkTo,
+                        },
+                      });
+                    }}
                   />
                 </div>
                 <span
