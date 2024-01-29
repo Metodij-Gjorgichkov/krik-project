@@ -54,9 +54,9 @@ const OrangeHeader = () => {
                   </Link>
                 </li>
                 <li className="px-2 mr-3">
-                  <a className="inline-block" href="#">
+                  <Link href={"/projects"} className="inline-block">
                     Проекти
-                  </a>
+                  </Link>
                 </li>
                 <li className="px-2 mr-3">
                   <a className="inline-block" href="#footer">
