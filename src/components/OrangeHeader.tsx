@@ -44,7 +44,7 @@ const OrangeHeader = () => {
                     <option value="/">За нас</option>
                     <option value="/forKrik">За крик</option>
                     <option value="Нашиот тим">Нашиот тим</option>
-                    <option value="Волонтери">Волонтери</option>
+                    <option value="volunteers">Волонтери</option>
                     <option disabled>Архива</option>
                   </select>
                 </li>

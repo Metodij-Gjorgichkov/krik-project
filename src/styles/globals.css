@@ -288,3 +288,10 @@ ul {
   z-index: -1;
 }
 /* SERVICES */
+.volunteer-projects button {
+  background-color: transparent;
+}
+.volunteer-detail .content {
+  position: absolute;
+  bottom: 20px;
+}
