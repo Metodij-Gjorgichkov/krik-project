@@ -23,9 +23,9 @@ const ProjectDetail = ({ projectData }: Props) => {
   };
 
   return (
-    <div className="project-detail container mt-4 py-5">
+    <div className="project-detail container py-5">
       <div className="row">
-        <div className="col-12 position-relative">
+        <div className="col-12 mb-5 position-relative">
           <img
             src={projectData.project_images[currentIndex]}
             alt={currentIndex.toString()}
@@ -45,6 +45,26 @@ const ProjectDetail = ({ projectData }: Props) => {
             alt="left arrow"
             className="arrow left-arrow cursor-pointer"
           />
+        </div>
+
+        <div className="col-6 py-4 offset-3 text-center">
+          <h3 className="mb-3 font-weight-800">{projectData.title}</h3>
+          <span>{projectData.desc}</span>
+        </div>
+      </div>
+
+      <div
+        className="row mt-5 d-flex align-items-center border-radius"
+        style={{ border: "1px solid black" }}
+      >
+        <div
+          className="col-4 p-5 bg-black border-radius"
+          style={{ height: "230px" }}
+        >
+          <h3 className="text-white">{projectData.intentedTo}</h3>
+        </div>
+        <div className="col-8">
+          <span>{projectData.intentedToDesc}</span>
         </div>
       </div>
     </div>
