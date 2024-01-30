@@ -21,7 +21,7 @@ const Projects = ({ finishedProjectsData, currentProjectsData }: Props) => {
 
         {currentProjectsData.map((proj) => {
           return (
-            <div className="col-3 mb-3">
+            <div className="col-4 mb-3">
               <Link href={`projects/${proj.id}`}>
                 <img src={proj.img} alt={proj.desc} className="border-radius" />
               </Link>
@@ -35,7 +35,7 @@ const Projects = ({ finishedProjectsData, currentProjectsData }: Props) => {
 
         {finishedProjectsData.map((proj) => {
           return (
-            <div className="col-3 mb-3">
+            <div className="col-4 mb-3">
               <Link href={`projects/${proj.id}`}>
                 <img src={proj.img} alt={proj.desc} className="border-radius" />
               </Link>
