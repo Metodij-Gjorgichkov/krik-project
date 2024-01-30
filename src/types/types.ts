@@ -29,7 +29,5 @@ export interface ProjectsType {
   intentedToDesc: string;
   indentedToPic: string;
   intrestedPeople: string;
-  project_images: {
-    img: string;
-  }[];
+  project_images: [];
 }

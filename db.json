@@ -27,26 +27,13 @@
                   "indentedToPic": "/images/Projects/intentedToPic.png",
                   "intrestedPeople": "31",
                   "project_images": [
-                        {
-                              "img": "/images/Projects/projectDetail1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project2.png"
-                        },
-                        {
-                              "img": "/images/Projects/project3.png"
-                        },
-                        {
-                              "img": "/images/Projects/project4.png"
-                        },
-                        {
-                              "img": "/images/Projects/project5.png"
-                        }
-                  ]
-             
+                        "/images/Projects/projectDetail1.png",
+                        "/images/Projects/project1.png",
+                        "/images/Projects/project2.png",
+                        "/images/Projects/project3.png",
+                        "/images/Projects/project4.png",
+                        "/images/Projects/project5.png"
+            ]
             },
             {
                   "id": 2,
@@ -61,26 +48,13 @@
                   "indentedToPic": "/images/Projects/intentedToPic.png",
                   "intrestedPeople": "50",
                   "project_images": [
-                        {
-                              "img": "/images/Projects/projectDetail1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project2.png"
-                        },
-                        {
-                              "img": "/images/Projects/project3.png"
-                        },
-                        {
-                              "img": "/images/Projects/project4.png"
-                        },
-                        {
-                              "img": "/images/Projects/project5.png"
-                        }
+                              "/images/Projects/projectDetail1.png",
+                              "/images/Projects/project1.png",
+                              "/images/Projects/project2.png",
+                              "/images/Projects/project3.png",
+                              "/images/Projects/project4.png",
+                              "/images/Projects/project5.png"
                   ]
-             
             },
             {
                   "id": 3,
@@ -95,26 +69,13 @@
                   "indentedToPic": "/images/Projects/intentedToPic.png",
                   "intrestedPeople": "60",
                   "project_images": [
-                        {
-                              "img": "/images/Projects/projectDetail1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project2.png"
-                        },
-                        {
-                              "img": "/images/Projects/project3.png"
-                        },
-                        {
-                              "img": "/images/Projects/project4.png"
-                        },
-                        {
-                              "img": "/images/Projects/project5.png"
-                        }
-                  ]
-             
+                        "/images/Projects/projectDetail1.png",
+                        "/images/Projects/project1.png",
+                        "/images/Projects/project2.png",
+                        "/images/Projects/project3.png",
+                        "/images/Projects/project4.png",
+                        "/images/Projects/project5.png"
+            ]
             },
             {
                   "id": 4,
@@ -129,26 +90,13 @@
                   "indentedToPic": "/images/Projects/intentedToPic.png",
                   "intrestedPeople": "40",
                   "project_images": [
-                        {
-                              "img": "/images/Projects/projectDetail1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project2.png"
-                        },
-                        {
-                              "img": "/images/Projects/project3.png"
-                        },
-                        {
-                              "img": "/images/Projects/project4.png"
-                        },
-                        {
-                              "img": "/images/Projects/project5.png"
-                        }
-                  ]
-             
+                        "/images/Projects/projectDetail1.png",
+                        "/images/Projects/project1.png",
+                        "/images/Projects/project2.png",
+                        "/images/Projects/project3.png",
+                        "/images/Projects/project4.png",
+                        "/images/Projects/project5.png"
+            ]
             },
             {
                   "id": 5,
@@ -163,26 +111,13 @@
                   "indentedToPic": "/images/Projects/intentedToPic.png",
                   "intrestedPeople": "32",
                   "project_images": [
-                        {
-                              "img": "/images/Projects/projectDetail1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project2.png"
-                        },
-                        {
-                              "img": "/images/Projects/project3.png"
-                        },
-                        {
-                              "img": "/images/Projects/project4.png"
-                        },
-                        {
-                              "img": "/images/Projects/project5.png"
-                        }
-                  ]
-             
+                        "/images/Projects/projectDetail1.png",
+                        "/images/Projects/project1.png",
+                        "/images/Projects/project2.png",
+                        "/images/Projects/project3.png",
+                        "/images/Projects/project4.png",
+                        "/images/Projects/project5.png"
+            ]
             },
             {
                   "id": 6,
@@ -197,26 +132,13 @@
                   "indentedToPic": "/images/Projects/intentedToPic.png",
                   "intrestedPeople": "70",
                   "project_images": [
-                        {
-                              "img": "/images/Projects/projectDetail1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project2.png"
-                        },
-                        {
-                              "img": "/images/Projects/project3.png"
-                        },
-                        {
-                              "img": "/images/Projects/project4.png"
-                        },
-                        {
-                              "img": "/images/Projects/project5.png"
-                        }
-                  ]
-             
+                        "/images/Projects/projectDetail1.png",
+                        "/images/Projects/project1.png",
+                        "/images/Projects/project2.png",
+                        "/images/Projects/project3.png",
+                        "/images/Projects/project4.png",
+                        "/images/Projects/project5.png"
+            ]
             },
             {
                   "id": 7,
@@ -231,26 +153,13 @@
                   "indentedToPic": "/images/Projects/intentedToPic.png",
                   "intrestedPeople": "22",
                   "project_images": [
-                        {
-                              "img": "/images/Projects/projectDetail1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project2.png"
-                        },
-                        {
-                              "img": "/images/Projects/project3.png"
-                        },
-                        {
-                              "img": "/images/Projects/project4.png"
-                        },
-                        {
-                              "img": "/images/Projects/project5.png"
-                        }
-                  ]
-             
+                        "/images/Projects/projectDetail1.png",
+                        "/images/Projects/project1.png",
+                        "/images/Projects/project2.png",
+                        "/images/Projects/project3.png",
+                        "/images/Projects/project4.png",
+                        "/images/Projects/project5.png"
+            ]
             },
             {
                   "id": 8,
@@ -265,26 +174,13 @@
                   "indentedToPic": "/images/Projects/intentedToPic.png",
                   "intrestedPeople": "10",
                   "project_images": [
-                        {
-                              "img": "/images/Projects/projectDetail1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project2.png"
-                        },
-                        {
-                              "img": "/images/Projects/project3.png"
-                        },
-                        {
-                              "img": "/images/Projects/project4.png"
-                        },
-                        {
-                              "img": "/images/Projects/project5.png"
-                        }
-                  ]
-             
+                        "/images/Projects/projectDetail1.png",
+                        "/images/Projects/project1.png",
+                        "/images/Projects/project2.png",
+                        "/images/Projects/project3.png",
+                        "/images/Projects/project4.png",
+                        "/images/Projects/project5.png"
+            ]
             },
             {
                   "id": 9,
@@ -299,26 +195,13 @@
                   "indentedToPic": "/images/Projects/intentedToPic.png",
                   "intrestedPeople": "20",
                   "project_images": [
-                        {
-                              "img": "/images/Projects/projectDetail1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project2.png"
-                        },
-                        {
-                              "img": "/images/Projects/project3.png"
-                        },
-                        {
-                              "img": "/images/Projects/project4.png"
-                        },
-                        {
-                              "img": "/images/Projects/project5.png"
-                        }
-                  ]
-             
+                        "/images/Projects/projectDetail1.png",
+                        "/images/Projects/project1.png",
+                        "/images/Projects/project2.png",
+                        "/images/Projects/project3.png",
+                        "/images/Projects/project4.png",
+                        "/images/Projects/project5.png"
+            ]
             },
             {
                   "id": 10,
@@ -333,26 +216,13 @@
                   "indentedToPic": "/images/Projects/intentedToPic.png",
                   "intrestedPeople": "31%",
                   "project_images": [
-                        {
-                              "img": "/images/Projects/projectDetail1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project2.png"
-                        },
-                        {
-                              "img": "/images/Projects/project3.png"
-                        },
-                        {
-                              "img": "/images/Projects/project4.png"
-                        },
-                        {
-                              "img": "/images/Projects/project5.png"
-                        }
-                  ]
-             
+                        "/images/Projects/projectDetail1.png",
+                        "/images/Projects/project1.png",
+                        "/images/Projects/project2.png",
+                        "/images/Projects/project3.png",
+                        "/images/Projects/project4.png",
+                        "/images/Projects/project5.png"
+            ]
             },
             {
                   "id": 11,
@@ -367,26 +237,13 @@
                   "indentedToPic": "/images/Projects/intentedToPic.png",
                   "intrestedPeople": "55",
                   "project_images": [
-                        {
-                              "img": "/images/Projects/projectDetail1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project2.png"
-                        },
-                        {
-                              "img": "/images/Projects/project3.png"
-                        },
-                        {
-                              "img": "/images/Projects/project4.png"
-                        },
-                        {
-                              "img": "/images/Projects/project5.png"
-                        }
-                  ]
-             
+                        "/images/Projects/projectDetail1.png",
+                        "/images/Projects/project1.png",
+                        "/images/Projects/project2.png",
+                        "/images/Projects/project3.png",
+                        "/images/Projects/project4.png",
+                        "/images/Projects/project5.png"
+            ]
             },
             {
                   "id": 12,
@@ -401,26 +258,13 @@
                   "indentedToPic": "/images/Projects/intentedToPic.png",
                   "intrestedPeople": "93",
                   "project_images": [
-                        {
-                              "img": "/images/Projects/projectDetail1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project1.png"
-                        },
-                        {
-                              "img": "/images/Projects/project2.png"
-                        },
-                        {
-                              "img": "/images/Projects/project3.png"
-                        },
-                        {
-                              "img": "/images/Projects/project4.png"
-                        },
-                        {
-                              "img": "/images/Projects/project5.png"
-                        }
-                  ]
-             
+                        "/images/Projects/projectDetail1.png",
+                        "/images/Projects/project1.png",
+                        "/images/Projects/project2.png",
+                        "/images/Projects/project3.png",
+                        "/images/Projects/project4.png",
+                        "/images/Projects/project5.png"
+            ]
             }
       ],
       "volunteers": [
