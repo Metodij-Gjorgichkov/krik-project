@@ -61,10 +61,51 @@ const ProjectDetail = ({ projectData }: Props) => {
           className="col-4 p-5 bg-black border-radius"
           style={{ height: "230px" }}
         >
-          <h3 className="text-white">{projectData.intentedTo}</h3>
+          <h3 className="text-white">{projectData.project_purpose}</h3>
         </div>
-        <div className="col-8">
+        <div className="col-8 px-5">
+          <span>{projectData.project_purpose_desc}</span>
+        </div>
+      </div>
+
+      <div className="row mt-5 py-3 d-flex align-items-center">
+        <div
+          className="col-8 p-5 border-radius"
+          style={{ border: "1px solid black", height: "280px" }}
+        >
+          <h3>{projectData.intentedTo}</h3>
           <span>{projectData.intentedToDesc}</span>
+        </div>
+        <div className="col-4">
+          <img
+            src={projectData.indentedToPic}
+            alt="project-pic"
+            style={{ width: "100%", height: "280px", display: "block" }}
+          />
+        </div>
+      </div>
+
+      <div className="row mt-5">
+        <div className="col-12 px-0">
+          <div
+            className="border-radius position-relative"
+            style={{ border: "1px solid black", height: "30px" }}
+          >
+            <div
+              className="bg-orange border-radius"
+              style={{
+                width: `${projectData.intrestedPeople}%`,
+                height: "100%",
+              }}
+            >
+              <span
+                className="d-block"
+                style={{ position: "absolute", top: "10%", right: "20px" }}
+              >
+                {projectData.intrestedPeople}%
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
