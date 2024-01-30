@@ -88,7 +88,7 @@ const ProjectDetail = ({ projectData }: Props) => {
       <div className="row mt-5">
         <div className="col-12 px-0">
           <div
-            className="border-radius position-relative"
+            className="border-radius position-relative mb-5"
             style={{ border: "1px solid black", height: "30px" }}
           >
             <div
@@ -99,12 +99,30 @@ const ProjectDetail = ({ projectData }: Props) => {
               }}
             >
               <span
-                className="d-block"
+                className="d-block "
                 style={{ position: "absolute", top: "10%", right: "20px" }}
               >
                 {projectData.intrestedPeople}%
               </span>
             </div>
+          </div>
+          <div className="d-flex justify-content-end align-items-center mb-4">
+            <p className="mb-0 mr-5">Заинтересиран/а си?</p>
+            <a
+              href=""
+              className="d-block bg-black text-white border-radius px-2 py-1 "
+            >
+              Пријави се
+            </a>
+          </div>
+          <div className="d-flex justify-content-end align-items-center">
+            <p className="mb-0 mr-5">Сакаш да не поддржиш?</p>
+            <a
+              href=""
+              className="d-block bg-danger text-white border-radius px-3 py-1 "
+            >
+              Донирај
+            </a>
           </div>
         </div>
       </div>
