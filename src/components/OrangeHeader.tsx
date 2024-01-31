@@ -72,8 +72,8 @@ const OrangeHeader = () => {
                         ) => handleOnSelectChange(event)}
                       >
                         <option value="/">За нас</option>
-                        <option value="/forKrik">За крик</option>
-                        <option value="Нашиот тим">Нашиот тим</option>
+                        <option value="forKrik">За крик</option>
+                        <option value="ourTeam">Нашиот тим</option>
                         <option value="volunteers">Волонтери</option>
                         <option disabled>Архива</option>
                       </select>
@@ -125,19 +125,20 @@ const OrangeHeader = () => {
             className="container fixed-menu py-5"
           >
             <div className="row">
-              <div className="col-12 text-center text-white">
+              <div className="col-12 mt-5 text-center text-white">
                 <nav>
                   <ul>
                     <li className="mb-5">
                       <select
+                        className="text-white"
                         value={categoryValue}
                         onChange={(
                           event: React.ChangeEvent<HTMLSelectElement>
                         ) => handleOnSelectChange(event)}
                       >
                         <option value="/">За нас</option>
-                        <option value="/forKrik">За крик</option>
-                        <option value="Нашиот тим">Нашиот тим</option>
+                        <option value="forKrik">За крик</option>
+                        <option value="ourTeam">Нашиот тим</option>
                         <option value="volunteers">Волонтери</option>
                         <option disabled>Архива</option>
                       </select>

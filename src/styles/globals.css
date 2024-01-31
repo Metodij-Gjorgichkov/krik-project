@@ -171,6 +171,10 @@ ul {
   z-index: 100;
   transform-origin: right;
 }
+.fixed-menu select {
+  background: transparent;
+  border-radius: 10px;
+}
 /* ORANGE HEADER */
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* BANNER 1  */
