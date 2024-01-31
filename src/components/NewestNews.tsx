@@ -78,7 +78,7 @@ const NewestNews = () => {
           })}
         </div>
 
-        <div className="d-block text-right mt-5">
+        <div className="d-block text-center text-md-right mt-5">
           <PurpleButton title="Види за цел месец" padding="20px" />
         </div>
       </div>

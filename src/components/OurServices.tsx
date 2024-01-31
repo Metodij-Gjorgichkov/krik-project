@@ -25,18 +25,18 @@ const OurServices = () => {
   ];
   return (
     <div className="our-services container py-5">
-      <div className="row">
-        <div className="col-12  mb-5">
-          <h2 className="font-weight-800">Најнови вести</h2>
+      <div className="row d-flex align-items-center">
+        <div className="col-12 mb-5">
+          <h2 className="font-weight-800">Нашите услуги</h2>
         </div>
-        <div className="col-6">
+        <div className="col-12 col-md-6 md-mb-5">
           <img
             src="/images/Homepage/homepage_uslugi_cardimg.jpg"
             alt="services"
             className="our-serices-img border-radius"
           />
         </div>
-        <div className="col-6">
+        <div className="col-12 col-md-6">
           {OurServicesType.map((service, index) => {
             return (
               <div key={index} className="right-column mb-3">

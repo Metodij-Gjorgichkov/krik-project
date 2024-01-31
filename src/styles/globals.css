@@ -7,6 +7,11 @@ body {
   margin: 0;
   padding-top: 154px;
 }
+@media (max-width: 768px) {
+  body {
+    padding-top: 88px;
+  }
+}
 html {
   scroll-behavior: smooth;
 }
@@ -133,6 +138,11 @@ ul {
   left: 0;
   right: 0;
 }
+@media (max-width: 768px) {
+  .orange-header {
+    top: 0;
+  }
+}
 .orange-header ul > li:hover:not(:last-child) {
   border: 2px solid black;
   border-radius: 8px;
@@ -183,6 +193,12 @@ ul {
 }
 .accessibility-btn.content {
   width: 420px;
+}
+@media (max-width: 768px) {
+  .accessibility-btn {
+    display: flex;
+    flex-direction: column;
+  }
 }
 /* ACCESSIBILITY BUTTON */
 /* ------------------------------------------------------------------------------------------------------------------------------ */

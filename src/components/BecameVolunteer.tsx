@@ -4,7 +4,7 @@ const BecameVolunteer = () => {
   return (
     <div className="become-volunteer container py-5">
       <div className="row">
-        <div className="col-8 pl-0">
+        <div className="col-12 col-md-8 pl-sm-0 px-0">
           <img
             src="/images/Homepage/volunteerVideo.png"
             alt="video"
@@ -12,7 +12,7 @@ const BecameVolunteer = () => {
             style={{ height: "250px", width: "100%" }}
           />
         </div>
-        <div className="col-4 bg-black border-radius p-4">
+        <div className="col-12 col-md-4 bg-black border-radius p-4">
           <h5 className="text-white">
             Стани <br /> Волонтер
           </h5>

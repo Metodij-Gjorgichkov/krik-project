@@ -33,45 +33,47 @@ const OrangeHeader = () => {
                 style={{ cursor: "pointer" }}
               />
 
-              <ul className="d-flex align-items-center">
-                <li>
-                  <select
-                    value={categoryValue}
-                    onChange={(event: React.ChangeEvent<HTMLSelectElement>) =>
-                      handleOnSelectChange(event)
-                    }
-                  >
-                    <option value="/">За нас</option>
-                    <option value="/forKrik">За крик</option>
-                    <option value="Нашиот тим">Нашиот тим</option>
-                    <option value="volunteers">Волонтери</option>
-                    <option disabled>Архива</option>
-                  </select>
-                </li>
-                <li className="px-2 mr-3">
-                  <Link className="inline-block" href="/services">
-                    Услуги
-                  </Link>
-                </li>
-                <li className="px-2 mr-3">
-                  <Link href={"/projects"} className="inline-block">
-                    Проекти
-                  </Link>
-                </li>
-                <li className="px-2 mr-3">
-                  <a className="inline-block" href="#footer">
-                    Контакт
-                  </a>
-                </li>
-                <li className="px-2 mr-3">
-                  <a
-                    className="inline-block bg-black border-radius text-white font-weight-400 px-2 py-1"
-                    href="#"
-                  >
-                    Донирај
-                  </a>
-                </li>
-              </ul>
+              <nav className="d-none d-md-block">
+                <ul className="d-flex align-items-center">
+                  <li>
+                    <select
+                      value={categoryValue}
+                      onChange={(event: React.ChangeEvent<HTMLSelectElement>) =>
+                        handleOnSelectChange(event)
+                      }
+                    >
+                      <option value="/">За нас</option>
+                      <option value="/forKrik">За крик</option>
+                      <option value="Нашиот тим">Нашиот тим</option>
+                      <option value="volunteers">Волонтери</option>
+                      <option disabled>Архива</option>
+                    </select>
+                  </li>
+                  <li className="px-2 mr-3">
+                    <Link className="inline-block" href="/services">
+                      Услуги
+                    </Link>
+                  </li>
+                  <li className="px-2 mr-3">
+                    <Link href={"/projects"} className="inline-block">
+                      Проекти
+                    </Link>
+                  </li>
+                  <li className="px-2 mr-3">
+                    <a className="inline-block" href="#footer">
+                      Контакт
+                    </a>
+                  </li>
+                  <li className="px-2 mr-3">
+                    <a
+                      className="inline-block bg-black border-radius text-white font-weight-400 px-2 py-1"
+                      href="#"
+                    >
+                      Донирај
+                    </a>
+                  </li>
+                </ul>
+              </nav>
             </div>
           </div>
         </div>
