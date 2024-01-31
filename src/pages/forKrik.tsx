@@ -50,14 +50,14 @@ const ForKrik = () => {
       <div className="darker-white">
         <div className="container pb-5" style={{ paddingTop: "130px" }}>
           <div className="row d-flex align-items-center pb-5">
-            <div className="col-6">
+            <div className="col-12 col-lg-6 mb-md-3">
               <img
                 src="/images/ForKrik/forKrik.png"
                 alt="za krik"
-                style={{ opacity: "0.5", maxHeight: "450px" }}
+                style={{ opacity: "0.5", maxHeight: "450px", width: "100%" }}
               />
             </div>
-            <div className="col-6">
+            <div className="col-12 col-lg-6">
               <h3 className="mb-3">
                 Центарот за младинскиот активизам Крик е невладина, непрофитна
                 организација основана од страна на млади луѓе, предводена од
@@ -97,10 +97,10 @@ const ForKrik = () => {
                 className="row d-flex align-items-center"
                 style={{ margin: "0 auto", width: "80%" }}
               >
-                <div className="col-3">
+                <div className="col-12 col-md-3">
                   <h4 className="color-red">{krik.title}</h4>
                 </div>
-                <div className="col-9">
+                <div className="col-12 col-md-9">
                   <span>{krik.desc}</span>
                 </div>
               </div>
