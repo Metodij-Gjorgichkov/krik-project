@@ -14,14 +14,15 @@ const VolunteerDetail = ({ volunteer }: Props) => {
           className="row d-flex justify-content-between align-items-center mt-5 borde-radius"
           style={{ border: "1px solid black", borderRadius: "10px" }}
         >
-          <div className="col-3 pl-0">
+          <div className="col-12 col-lg-3 px-0">
             <img
               src={volunteer.image}
               alt={volunteer.name}
               className="border-radius"
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
-          <div className="col-9">
+          <div className="col-12 col-lg-9 mt-3 mt-lg-0">
             <h4>{volunteer.name}</h4>
             <p>{volunteer.biography}</p>
           </div>
@@ -36,7 +37,10 @@ const VolunteerDetail = ({ volunteer }: Props) => {
 
           {volunteer.projects.map((project, index) => {
             return (
-              <div className="col-4 mb-5 volunteer-projects" key={index}>
+              <div
+                className="col-12 col-lg-4 mb-5 volunteer-projects"
+                key={index}
+              >
                 <button
                   className="d-block border-radius mb-4"
                   style={{ border: "1px solid black" }}

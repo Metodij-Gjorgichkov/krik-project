@@ -23,7 +23,7 @@ const Volunteers = ({ data }: Props) => {
     <div className="darker-white">
       <div className="container">
         <div className="row position-relative p-5 text-center font-weight-800">
-          <div className="col-6">
+          <div className="col-12 col-md-6">
             <p
               className={`pb-2 cursor-pointer ${
                 Object.keys(router.query).length === 0 ||
@@ -38,7 +38,7 @@ const Volunteers = ({ data }: Props) => {
               Долг Рок
             </p>
           </div>
-          <div className="col-6">
+          <div className="col-12 col-md-6">
             <p
               className={`pb-2 cursor-pointer ${
                 router.query.term === "short" && "border-bottom-active"
@@ -50,7 +50,7 @@ const Volunteers = ({ data }: Props) => {
               Краток рок
             </p>
           </div>
-          <div className="service-hr"></div>
+          <div className="service-hr d-none d-md-block"></div>
         </div>
 
         <div className="row">

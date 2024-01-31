@@ -4,7 +4,7 @@ import React from "react";
 
 const VolunteersCards = (props: VolunteersType) => {
   return (
-    <div className="col-3 mb-4">
+    <div className="col-12 col-md-3 mb-4">
       <Link href={`volunteers/${props.id}`}>
         <img src={props.image} alt={props.name} className="border-radius" />
       </Link>
