@@ -47,7 +47,7 @@ const AccessibilityBtn = () => {
       {accessibility && (
         <div
           onMouseLeave={handleOnMouseLeave}
-          className="accessibility-btn content border-radius"
+          className="accessibility-btn content"
         >
           <p className="text-center text-white bg-red py-2 mb-0">Пристапност</p>
 

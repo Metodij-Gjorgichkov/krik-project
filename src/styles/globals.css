@@ -209,10 +209,10 @@ ul {
 .accessibility-btn.content {
   width: 420px;
 }
-@media (max-width: 768px) {
+@media (max-width: 425px) {
   .accessibility-btn {
-    display: flex;
-    flex-direction: column;
+    transform: rotate(-90deg);
+    right: -40px !important;
   }
 }
 /* ACCESSIBILITY BUTTON */
