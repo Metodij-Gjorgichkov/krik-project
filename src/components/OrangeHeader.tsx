@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const OrangeHeader = () => {
   const [categoryValue, setCategoryValue] = useState<string>("За нас");
@@ -33,7 +34,7 @@ const OrangeHeader = () => {
                 style={{ cursor: "pointer" }}
               />
 
-              <nav className="d-none d-md-block">
+              <nav className="d-none d-sm-block">
                 <ul className="d-flex align-items-center">
                   <li>
                     <select
@@ -74,6 +75,9 @@ const OrangeHeader = () => {
                   </li>
                 </ul>
               </nav>
+              <div className="d-sm-none">
+                <GiHamburgerMenu size={40} />
+              </div>
             </div>
           </div>
         </div>
