@@ -22,7 +22,7 @@ const Services = ({ data }: ServiceData) => {
   return (
     <div className="container my-5">
       <div className="row position-relative p-5 text-center font-weight-800">
-        <div className="col-12 col-md-4">
+        <div className="col-12 col-lg-4">
           <p
             className={`pb-2 cursor-pointer ${
               Object.keys(router.query).length === 0 ||
@@ -37,7 +37,7 @@ const Services = ({ data }: ServiceData) => {
             Центар Крикни
           </p>
         </div>
-        <div className="col-12 col-md-4">
+        <div className="col-12 col-lg-4">
           <p
             className={`pb-2 cursor-pointer ${
               router.query.title === "Независни станбени единици" &&
@@ -50,7 +50,7 @@ const Services = ({ data }: ServiceData) => {
             Независни станбени единици
           </p>
         </div>
-        <div className="col-12 col-md-4">
+        <div className="col-12 col-lg-4">
           <p
             className={`pb-2 cursor-pointer ${
               router.query.title === "Советувалиште" && "border-bottom-active"
@@ -62,7 +62,7 @@ const Services = ({ data }: ServiceData) => {
             Советувалиште
           </p>
         </div>
-        <div className="service-hr d-none d-md-block"></div>
+        <div className="service-hr d-none d-lg-block"></div>
       </div>
 
       <div className="row mt-4">
@@ -78,19 +78,19 @@ const Services = ({ data }: ServiceData) => {
         <div className="col-12">
           <p className="font-weight-800 mb-4">Галерија Со Активности</p>
         </div>
-        <div className="col-12 col-md-4 mb-4">
-          <img src="/images/Services/pic1.png" />
+        <div className="col-12 col-sm-4 mb-4">
+          <img src="/images/Services/pic1.png" style={{ height: "100%" }} />
         </div>
-        <div className="col-12 col-md-8 mb-4">
+        <div className="col-12 col-sm-8 mb-4">
           <img src="/images/Services/pic2.png" className="services-pic" />
         </div>
-        <div className="col-12 col-md-4 mb-4">
+        <div className="col-12 col-sm-4 mb-4">
           <img src="/images/Services/pic3.png" />
         </div>
-        <div className="col-12 col-md-4 mb-4">
+        <div className="col-12 col-sm-4 mb-4">
           <img src="/images/Services/pic2.png" />
         </div>
-        <div className="col-12 col-md-4 mb-4">
+        <div className="col-12 col-sm-4 mb-4">
           <img src="/images/Services/pic1.png" />
         </div>
       </div>

@@ -46,11 +46,11 @@ const ProjectDetail = ({ projectData }: Props) => {
             className="arrow left-arrow cursor-pointer"
           />
         </div>
+      </div>
 
-        <div className="col-6 py-4 offset-3 text-center">
-          <h3 className="mb-3 font-weight-800">{projectData.title}</h3>
-          <span>{projectData.desc}</span>
-        </div>
+      <div className="col-12 col-lg-6 py-4 offset-lg-3 text-center">
+        <h3 className="mb-3 font-weight-800">{projectData.title}</h3>
+        <span>{projectData.desc}</span>
       </div>
 
       <div
@@ -58,25 +58,25 @@ const ProjectDetail = ({ projectData }: Props) => {
         style={{ border: "1px solid black" }}
       >
         <div
-          className="col-4 p-5 bg-black border-radius"
+          className="col-12 col-lg-4 p-5 bg-black border-radius"
           style={{ height: "230px" }}
         >
           <h3 className="text-white">{projectData.project_purpose}</h3>
         </div>
-        <div className="col-8 px-5">
+        <div className="col-12 col-lg-8 px-5">
           <span>{projectData.project_purpose_desc}</span>
         </div>
       </div>
 
       <div className="row mt-5 py-3 d-flex align-items-center">
         <div
-          className="col-8 p-5 border-radius"
+          className="col-12 col-lg-8 p-5 border-radius"
           style={{ border: "1px solid black", height: "280px" }}
         >
           <h3>{projectData.intentedTo}</h3>
           <span>{projectData.intentedToDesc}</span>
         </div>
-        <div className="col-4">
+        <div className="col-12 col-lg-4">
           <img
             src={projectData.indentedToPic}
             alt="project-pic"
