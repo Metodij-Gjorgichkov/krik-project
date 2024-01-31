@@ -31,3 +31,10 @@ export interface ProjectsType {
   intrestedPeople: string;
   project_images: [];
 }
+export interface OurTeamType {
+  id: string;
+  name: string;
+  image: string;
+  desc: string;
+  linkedin: string;
+}
