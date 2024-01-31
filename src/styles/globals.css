@@ -160,6 +160,17 @@ ul {
 .orange-header select:focus {
   outline: none;
 }
+.fixed-menu {
+  position: fixed;
+  background-color: #000000;
+  top: 88px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: calc(100vh - 88px);
+  z-index: 100;
+  transform-origin: right;
+}
 /* ORANGE HEADER */
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* BANNER 1  */
