@@ -38,3 +38,10 @@ export interface OurTeamType {
   desc: string;
   linkedin: string;
 }
+export interface ManagmentBoardType {
+  id: string;
+  image: string;
+  name: string;
+  position: string;
+  desc: string;
+}
