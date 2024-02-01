@@ -28,6 +28,19 @@ const OurTeam = ({ data, dataBoard }: Props) => {
     return (activeSlide + 1) % data.length;
   };
 
+  const goToNext = () => {
+    const isLastIndex = currentIndex === data.length - 1;
+    const newIndex = isLastIndex ? 0 : currentIndex + 1;
+
+    setCurrentIndex(newIndex);
+  };
+  const goToPrevious = () => {
+    const isFistIndex = currentIndex === 0;
+    const newIndex = isFistIndex ? data.length - 1 : currentIndex - 1;
+
+    setCurrentIndex(newIndex);
+  };
+
   const centerImageIndex = getCenterImageIndex();
   return (
     <>
@@ -76,12 +89,14 @@ const OurTeam = ({ data, dataBoard }: Props) => {
               />
               <div className="icons-content d-flex justify-content-center align-items-center text-center mb-3">
                 <img
+                  onClick={goToPrevious}
                   src="/icons/leftArrow.png"
                   alt="left arrow"
                   className="mr-2"
                   style={{ width: "35px" }}
                 />
                 <img
+                  onClick={goToNext}
                   src="/icons/rightArrow.png"
                   alt="right arrow"
                   style={{ width: "35px" }}
@@ -121,10 +136,10 @@ const OurTeam = ({ data, dataBoard }: Props) => {
               className="row d-flex align-items-center"
               style={{ margin: "0 auto", width: "65%" }}
             >
-              <div className="col-12 col-md-4 mb-sm-3">
+              <div className="col-12 col-md-4 mb-md-3">
                 <img src={data.image} alt={data.name} />
               </div>
-              <div className="col-12 col-md-8 mb-sm-3">
+              <div className="col-12 col-md-8 mb-md-3">
                 <p>{data.name}</p>
                 <span className="d-block">{data.position}</span>
 
