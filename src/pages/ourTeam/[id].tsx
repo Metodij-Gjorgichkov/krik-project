@@ -1,7 +1,65 @@
+import { ManagmentBoardType } from "@/types/types";
+import { GetStaticPaths, GetStaticProps } from "next";
 import React from "react";
 
-const OurTeamDetail = () => {
-  return <div> hii</div>;
+interface Props {
+  boardData: ManagmentBoardType;
+}
+
+const OurTeamDetail = ({ boardData }: Props) => {
+  return (
+    <div className="container py-5">
+      <div className="row d-flex justify-content-center align-items-center">
+        <div className="col-12 col-md-3">
+          <img
+            src={boardData.image}
+            alt={boardData.name}
+            style={{ width: "100%" }}
+            className="mb-4 mb-md-0"
+          />
+        </div>
+        <div className="col-12 col-md-7">
+          <h3>{boardData.name}</h3>
+          <span>{boardData.desc}</span>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default OurTeamDetail;
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const boardRes = await fetch(
+    "http://localhost:5001/members_of_the_management_board"
+  );
+  const boardData: ManagmentBoardType[] = await boardRes.json();
+
+  const paths = boardData.map((product) => {
+    return {
+      params: {
+        id: product.id.toString(),
+      },
+    };
+  });
+  return {
+    paths,
+    fallback: false,
+  };
+};
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  let boardData: ManagmentBoardType | undefined = undefined;
+
+  if (params?.id) {
+    const boardRes = await fetch(
+      `http://localhost:5001/members_of_the_management_board/${params.id}`
+    );
+    boardData = await boardRes.json();
+  }
+
+  return {
+    props: {
+      boardData,
+    },
+  };
+};
