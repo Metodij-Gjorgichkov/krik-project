@@ -12,7 +12,8 @@ interface Props {
 }
 
 const OurTeam = ({ data, dataBoard }: Props) => {
-  const [activeSlide, setActiveSlide] = useState(0);
+  const [activeSlide, setActiveSlide] = useState<number>(0);
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   const settings = {
     dots: true,
@@ -41,7 +42,7 @@ const OurTeam = ({ data, dataBoard }: Props) => {
                 {data.map((d, index) => {
                   return (
                     <>
-                      <Link href={`/ourTeam/${d.id}`}>
+                      <Link key={index} href={`/ourTeam/${d.id}`}>
                         <img
                           src={d.image}
                           alt={d.name}
@@ -66,6 +67,33 @@ const OurTeam = ({ data, dataBoard }: Props) => {
                   );
                 })}
               </Slider>
+            </div>
+            <div className="d-md-none">
+              <img
+                src={data[currentIndex].image}
+                alt=""
+                className="border-radius mb-4"
+              />
+              <div className="icons-content d-flex justify-content-center align-items-center text-center mb-3">
+                <img
+                  src="/icons/leftArrow.png"
+                  alt="left arrow"
+                  className="mr-2"
+                  style={{ width: "35px" }}
+                />
+                <img
+                  src="/icons/rightArrow.png"
+                  alt="right arrow"
+                  style={{ width: "35px" }}
+                />
+              </div>
+              <div className="content">
+                <h2>{data[currentIndex].name}</h2>
+                <span className="d-block mb-2">{data[currentIndex].desc}</span>
+                <a href={data[currentIndex].linkedin} className="d-block mb-3">
+                  <button className="our-team-linkedin-btn">Linkedin</button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
