@@ -1,4 +1,4 @@
-import { ManagmentBoardType } from "@/types/types";
+import { ManagmentBoardType, OurTeamType } from "@/types/types";
 import { GetStaticPaths, GetStaticProps } from "next";
 import React from "react";
 
@@ -15,7 +15,7 @@ const OurTeamDetail = ({ boardData }: Props) => {
             src={boardData.image}
             alt={boardData.name}
             style={{ width: "100%" }}
-            className="mb-4 mb-md-0"
+            className="mb-4 mb-md-0 border-radius"
           />
         </div>
         <div className="col-12 col-md-7">
@@ -30,10 +30,8 @@ const OurTeamDetail = ({ boardData }: Props) => {
 export default OurTeamDetail;
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const boardRes = await fetch(
-    "http://localhost:5001/members_of_the_management_board"
-  );
-  const boardData: ManagmentBoardType[] = await boardRes.json();
+  const boardRes = await fetch("http://localhost:5001/our_team");
+  const boardData: OurTeamType[] = await boardRes.json();
 
   const paths = boardData.map((product) => {
     return {
@@ -51,9 +49,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   let boardData: ManagmentBoardType | undefined = undefined;
 
   if (params?.id) {
-    const boardRes = await fetch(
-      `http://localhost:5001/members_of_the_management_board/${params.id}`
-    );
+    const boardRes = await fetch(`http://localhost:5001/our_team/${params.id}`);
     boardData = await boardRes.json();
   }
 
